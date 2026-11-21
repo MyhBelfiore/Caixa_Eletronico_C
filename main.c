@@ -155,6 +155,18 @@ float sacar(float saldo) {
     return valor;
 }
 
+void exibirExtrato(float totalDepositado, float totalSacado, int qtdOperacoes, float saldo) {
+    printf("\n=========== EXTRATO DA SESSAO ===========\n");
+    printf("Saldo inicial:        R$ %10.2f\n", SALDO_INICIAL);
+    printf("Total depositado:   + R$ %10.2f\n", totalDepositado);
+    printf("Total sacado:       - R$ %10.2f\n", totalSacado);
+    printf("-----------------------------------------\n");
+    printf("Saldo atual:          R$ %10.2f\n", saldo);
+    printf("Operacoes realizadas: %d\n", qtdOperacoes);
+}
+
+
+/* ===== Programa Principal ===== */
 int main(void) {
     float saldo = SALDO_INICIAL;
     float totalDepositado = 0.0f;
@@ -198,6 +210,10 @@ int main(void) {
                     printf("\nSaque de R$ %.2f realizado. Retire seu dinheiro.\n", valor);
                 }
                 break;
+
+            case 4:
+                exibirExtrato(totalDepositado, totalSacado, qtdOperacoes, saldo);
+                break;    
 
             case 0:
                 printf("\nObrigado por usar nosso caixa. Ate logo!\n");
