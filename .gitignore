@@ -1,0 +1,5 @@
+# Arquivos gerados pela compilacao (nao vao para o GitHub)
+*.exe
+*.o
+*.out
+caixa
