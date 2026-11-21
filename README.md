@@ -63,13 +63,6 @@ Valor do saque (multiplo de 10): R$ 120
 Saque de R$ 120.00 realizado. Retire seu dinheiro.
 ```
 
-## 🚀 Próximas melhorias
-
-- [ ] Mostrar quais notas foram entregues no saque
-- [ ] Permitir trocar a senha
-- [ ] Guardar o histórico de operações (quando eu aprender vetores)
-- [ ] Salvar o saldo em arquivo (quando eu aprender arquivos)
-
 ## 👩‍💻 Autora
 
-Feito por **[Seu Nome]** durante os estudos de linguagem C.
+Feito por Myrella Belfiore Ribeiro Capelli durante os estudos de linguagem C.
